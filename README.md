@@ -2,6 +2,11 @@
 
 A curated collection of awesome things related to Nintendo Switch hacking and homebrew.
 
+*Note:* All retail products will link to the manufacturer's site when possible. The products may not be available for purchase at that site.
+Please perform due diligence when purchasing console modding products online.
+
+**Last Updated**: 2020-08-12
+
 ## Contents
 
 - [Documentation](#documentation)
@@ -33,9 +38,9 @@ A curated collection of awesome things related to Nintendo Switch hacking and ho
 
 ## Hardware
 
-**Warning**: Please use caution when purchasing any console hacking/modding products online.
-
 ### Payload Injectors
+
+Payload injectors allow you to run custom software on unpatched Switches when they are in RCM mode.
 
 - [NS-Atmosphere](http://www.ns-atmosphere.com/en/)
 - [RCMloader](https://www.xkit.xyz/rcmloader/), [RCMloader zero](https://www.xkit.xyz/rcmloader-zero/)
@@ -43,9 +48,12 @@ A curated collection of awesome things related to Nintendo Switch hacking and ho
 
 ### Modchips
 
+The SAMD21-based microcontroller boards can be purposed as modchips for unpatched Switches only. The SX modchips use a
+different method of launching a custom payload and are compatible with all current Nintendo Switch consoles.
+
 - [Trinket M0](https://www.adafruit.com/product/3500), [Gemma M0](https://www.adafruit.com/product/3501), [ItsyBitsy M0 Express](https://www.adafruit.com/product/3727), [Feather M0 Express](https://www.adafruit.com/product/3403) - SAMD21-based microcontroller boards from Adafruit that can be used as modchips in unpatched Switches
 - [Rebug SwitchME M0](https://github.com/Aboshi/SwitchME) - An open source SAMD21-based modchip designed for use in unpatched Switches
-- [SX Core](https://sx.xecuter.com/#prod-sxcore), [SX Lite](https://sx.xecuter.com/#prod-sxlite) - Modchips by Team Xecuter that work with any Nintendo Switch or Switch Lite
+- [SX Core](https://sx.xecuter.com/#prod-sxcore), [SX Lite](https://sx.xecuter.com/#prod-sxlite) - Modchips by Team Xecuter, comes with SX Pro license
 
 ## System Software
 
@@ -69,7 +77,7 @@ Payloads are files that boot the Switch into custom firmware and utilities.
 
 ### Custom Firmware
 
-Custom firmware modify and enhance the stock Switch software to allow things like running homebrew, applying custom themes, etc.
+Custom firmware modify and enhance the stock Switch software to allow running homebrew, applying custom themes, etc.
 
 - [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) - Open source custom firmware for Nintendo Switch
 - [SX OS](https://sx.xecuter.rocks/) - Commercial custom firmware for Nintendo Switch
@@ -95,15 +103,15 @@ Note that a lot of the apps listed below can be installed via the Homebrew App S
 - [ChoiDujourNX](https://switchtools.sshnuke.net/) - Firmware update utility
 - [EdiZon](https://github.com/WerWolv/EdiZon) - A homebrew save management, editing tool and memory trainer
 - [Goldleaf](https://github.com/XorTroll/Goldleaf) - Multipurpose homebrew tool (file browser, title installer)
-- [Kosmos Toolbox](https://github.com/AtlasNX/Kosmos-Toolbox) - A toolbox for the Kosmos CFW package that contains some useful utilities (enable/disable sysmodules, set override key, reboot to payload)
 - [nxdumptool](https://github.com/DarkMatterCore/nxdumptool) - Cartridge and eShop title dumping utility
 - [NX-Shell](https://github.com/joel16/NX-Shell) - File manager
 - [NXThemes Installer](https://github.com/exelix11/SwitchThemeInjector) - Switch theme manager
 - [Payload Launcher](https://github.com/suchmememanyskill/Payload_Launcher) - Reboot to payload utility with a nice user interface
-- [Sigpatch Installer](https://github.com/HarukoNX/Sigpatch-Installer) - Updater for Kosmos sigpatches
 - [uLaunch](https://github.com/XorTroll/uLaunch) - Custom, open-source qlaunch (Nintendo Switch HOME menu) replacement/reimplementation
 
 ### System Modules
+
+System modules are software packages that enhance the Switch operating system.
 
 - [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader) - Host process for loading Tesla overlays
 - [sys-clk](https://github.com/retronx-team/sys-clk) - CPU and GPU overclocking system module
@@ -139,6 +147,9 @@ These games only work on firmware up to version 8.1.0 due to a change in the way
 - [Wolf4SDL-Switch](https://github.com/keeganatorr/Wolf4SDL-Switch) - Enhanced port of Wolfenstein 3D
 
 ### Emulation
+
+The emulation performance of the Switch is excellent. RetroArch is a great "one-stop-shop" for most emulation needs. For more
+demanding systems like Sony PSP and Nintendo DS, standalone emulators like PPSSPP can have better performance.
 
 - [melonDS](https://github.com/RSDuck/melonDS) - Standalone Nintendo DS emulator
 - [RetroArch](https://www.retroarch.com/?page=platforms) - Multi-platform emulation framework
