@@ -45,26 +45,38 @@ A curated collection of awesome things related to Nintendo Switch hacking and ho
 
 - [Trinket M0](https://www.adafruit.com/product/3500), [Gemma M0](https://www.adafruit.com/product/3501), [ItsyBitsy M0 Express](https://www.adafruit.com/product/3727), [Feather M0 Express](https://www.adafruit.com/product/3403) - SAMD21-based microcontroller boards from Adafruit that can be used as modchips in unpatched Switches
 - [Rebug SwitchME M0](https://github.com/Aboshi/SwitchME) - An open source SAMD21-based modchip designed for use in unpatched Switches
+- [SX Core](https://sx.xecuter.com/#prod-sxcore), [SX Lite](https://sx.xecuter.com/#prod-sxlite) - Modchips by Team Xecuter that work with any Nintendo Switch or Switch Lite
 
 ## System Software
 
 ### Bootloaders
 
+Bootloaders allow pushing payloads to unpatched Switches when in RCM mode.
+
 - [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI) - Windows utility to inject payloads in RCM mode
+- [NS-USBloader](https://github.com/developersu/ns-usbloader) - Title installer with payload injection functionality
 - [Hekate](https://github.com/CTCaer/hekate) - Custom Nintendo Switch bootloader, firmware patcher, and more
 - [Fusee_Suite](https://gbatemp.net/threads/trinket-rebug-others-modchip-software-new-fusee_suite-uf2-packages.553998/) - Firmware for SAMD21-based modchips
 
 ### Payloads
 
+Payloads are files that boot the Switch into custom firmware and utilities.
+
+- [fusee-primary](https://github.com/Atmosphere-NX/Atmosphere/releases) - Payload for running Atmosphere
 - [Incognito_RCM](https://github.com/jimzrt/Incognito_RCM) - Utility to remove console serial number from sysnand or emunand
 - [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) - Utility for dumping console encryption keys
+- [SX Loader](https://sx.xecuter.rocks/) - Payload for running SX OS custom firmware
 
 ### Custom Firmware
+
+Custom firmware modify and enhance the stock Switch software to allow things like running homebrew, applying custom themes, etc.
 
 - [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) - Open source custom firmware for Nintendo Switch
 - [SX OS](https://sx.xecuter.rocks/) - Commercial custom firmware for Nintendo Switch
 
 ### Operating Systems
+
+These packages allow usage of alternate operating systems on the Switch.
 
 - [L4T Ubuntu](https://gbatemp.net/threads/l4t-ubuntu-a-fully-featured-linux-on-your-switch.537301/) - Ubuntu Linux based on NVIDIA's Linux for Tegra project
 - [Lakka](https://lakka-switch.github.io/documentation/) - L4T Ubuntu build focused on emulation using RetroArch as the frontend
@@ -88,16 +100,20 @@ Note that a lot of the apps listed below can be installed via the Homebrew App S
 - [NX-Shell](https://github.com/joel16/NX-Shell) - File manager
 - [NXThemes Installer](https://github.com/exelix11/SwitchThemeInjector) - Switch theme manager
 - [Payload Launcher](https://github.com/suchmememanyskill/Payload_Launcher) - Reboot to payload utility with a nice user interface
+- [Sigpatch Installer](https://github.com/HarukoNX/Sigpatch-Installer) - Updater for Kosmos sigpatches
+- [uLaunch](https://github.com/XorTroll/uLaunch) - Custom, open-source qlaunch (Nintendo Switch HOME menu) replacement/reimplementation
 
 ### System Modules
 
-- [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader) - Host process for loading Switch overlay OVLs
+- [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader) - Host process for loading Tesla overlays
 - [sys-clk](https://github.com/retronx-team/sys-clk) - CPU and GPU overclocking system module
 - [sys-con](https://github.com/cathery/sys-con) - Nintendo Switch sysmodule that allows support for third-party controllers
 - [sys-ftpd-light](https://github.com/cathery/sys-ftpd-light) - FTP server system module
 - [sys-tune](https://github.com/HookedBehemoth/sys-tune) - Background audio player for the Nintendo switch
 
 ### Tesla Overlays
+
+Tesla is a Nintendo Switch homebrew which allows custom menus to be displayed over a game, similar to the Quick Settings menu when holding Home.
 
 - [Tesla Menu](https://github.com/WerWolv/Tesla-Menu) - Base overlay required to load child overlays
 - [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay) - Monitor many stats of Nintendo Switch hardware
@@ -114,7 +130,7 @@ Note that a lot of the apps listed below can be installed via the Homebrew App S
 
 ### Games (8.1.0)
 
-These games only work on firmware up to version 8.1.0 due to Nintendo changing the way inputs are handled in 9.0.0.
+These games only work on firmware up to version 8.1.0 due to a change in the way inputs are handled in firmware 9.0.0 and up.
 
 - [NXQuake2](https://github.com/fgsfdsfgs/nxquake2) - Nintendo Switch port of the Yamagi Quake II client
 - [OpenLara](https://github.com/XProger/OpenLara) - Classic Tomb Raider open-source engine
@@ -124,10 +140,12 @@ These games only work on firmware up to version 8.1.0 due to Nintendo changing t
 
 ### Emulation
 
+- [melonDS](https://github.com/RSDuck/melonDS) - Standalone Nintendo DS emulator
 - [RetroArch](https://www.retroarch.com/?page=platforms) - Multi-platform emulation framework
 - [PPSSPP](https://www.ppsspp.org/downloads.html) - Standalone PSP emulator
 - [pemu (pFBN, pNES, pSNES)](https://github.com/Cpasjuste/pemu) - Suite of standalone emulators by Cpasjuste
 
 ### Media and Streaming
 
+- [Moonlight-NX](https://github.com/rock88/moonlight-nx) - Game streaming for PCs with NVIDIA graphics cards
 - [SKyNX](https://github.com/DevL0rd/SkyNX) - PC game streaming
