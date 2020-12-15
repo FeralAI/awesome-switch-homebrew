@@ -118,6 +118,7 @@ System modules are software packages that enhance the Switch operating system.
 - [sys-con](https://github.com/cathery/sys-con) - Nintendo Switch sysmodule that allows support for third-party controllers
 - [sys-ftpd-light](https://github.com/cathery/sys-ftpd-light) - FTP server system module
 - [sys-tune](https://github.com/HookedBehemoth/sys-tune) - Background audio player for the Nintendo switch
+- [MissionControl](git@github.com:jskuby/awesome-switch-homebrew.git) - Use controllers from other consoles natively on your Nintendo Switch via Bluetooth
 
 ### Tesla Overlays
 
