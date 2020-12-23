@@ -5,7 +5,7 @@ A curated collection of awesome things related to Nintendo Switch hacking and ho
 *Note:* All retail products will link to the manufacturer's site when possible. The products may not be available for purchase at that site.
 Please perform due diligence when purchasing console modding products online.
 
-**Last Updated**: 2020-08-12
+**Last Updated**: December 22, 2020
 
 ## Contents
 
@@ -77,9 +77,10 @@ Payloads are files that boot the Switch into custom firmware and utilities.
 
 ### Custom Firmware
 
-Custom firmware modify and enhance the stock Switch software to allow running homebrew, applying custom themes, etc.
+Custom firmware modifies and enhances the stock Switch software to allow running homebrew, applying custom themes, etc.
 
 - [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) - Open source custom firmware for Nintendo Switch
+- [DeepSea](https://github.com/Team-Neptune/DeepSea) - Custom firmware package containing Atmosphere and common homebrew modules and utilities
 - [SX OS](https://sx.xecuter.rocks/) - Commercial custom firmware for Nintendo Switch
 
 ### Operating Systems
@@ -136,6 +137,7 @@ Tesla is a Nintendo Switch homebrew which allows custom menus to be displayed ov
 - [EDuke32](https://github.com/fgsfdsfgs/eduke32) -  Nintendo Switch port EDuke32
 - [GZDoom](https://github.com/fgsfdsfgs/gzdoom/tree/switch) - 3D-accelerated Doom source port
 - [Postal-NX](https://github.com/Sch-LikA/postal-nx) - Nintendo Switch port of Postal
+- [Taisei Project](https://taisei-project.org/) - Awesome bullet hell shoot'em up
 
 ### Games (8.1.0)
 
@@ -144,7 +146,6 @@ These games only work on firmware up to version 8.1.0 due to a change in the way
 - [NXQuake2](https://github.com/fgsfdsfgs/nxquake2) - Nintendo Switch port of the Yamagi Quake II client
 - [OpenLara](https://github.com/XProger/OpenLara) - Classic Tomb Raider open-source engine
 - [QuakespasmNX](https://github.com/fgsfdsfgs/QuakespasmNX) - Nintendo Switch port of Quakespasm
-- [Taisei Project](https://taisei-project.org/) - Awesome bullet hell shoot'em up
 - [Wolf4SDL-Switch](https://github.com/keeganatorr/Wolf4SDL-Switch) - Enhanced port of Wolfenstein 3D
 
 ### Emulation
