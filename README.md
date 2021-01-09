@@ -131,12 +131,12 @@ Tesla is a Nintendo Switch homebrew which allows custom menus to be displayed ov
 
 ### Games
 
-- [Cave Story Engine 2](https://github.com/heyjoeway/Cave-Story-Engine-2) - Enhanced port of the Cave Story Engine 2
-- [DevilutionX](https://github.com/lantus/devilution-nx) - Diablo for the Nintendo Switch
-- [Doom64 EX](https://github.com/fgsfdsfgs/Doom64EX) -  Nintendo Switch port Doom64 EX
-- [EDuke32](https://github.com/fgsfdsfgs/eduke32) -  Nintendo Switch port EDuke32
+- [DevilutionX](https://github.com/lantus/devilution-nx) - Diablo port for Switch
+- [Doom64EX](https://github.com/fgsfdsfgs/Doom64EX) - Doom64EX port for Switch
+- [EDuke32](https://github.com/fgsfdsfgs/eduke32) - EDuke32 port for Switch
 - [GZDoom](https://github.com/fgsfdsfgs/gzdoom/tree/switch) - 3D-accelerated Doom source port
-- [Postal-NX](https://github.com/Sch-LikA/postal-nx) - Nintendo Switch port of Postal
+- [OpenBOR](https://github.com/Cpasjuste/openbor) - OpenBOR engine port for Switch
+- [Postal-NX](https://github.com/Sch-LikA/postal-nx) - Postal port for Switch
 - [Taisei Project](https://taisei-project.org/) - Awesome bullet hell shoot'em up
 
 ### Games (8.1.0)
@@ -160,5 +160,6 @@ demanding systems like Sony PSP and Nintendo DS, standalone emulators like PPSSP
 
 ### Media and Streaming
 
+- [Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) - PS4/PS5 remote play client
 - [Moonlight-NX](https://github.com/rock88/moonlight-nx) - Game streaming for PCs with NVIDIA graphics cards
 - [SKyNX](https://github.com/DevL0rd/SkyNX) - PC game streaming
