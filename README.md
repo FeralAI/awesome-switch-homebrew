@@ -5,7 +5,7 @@ A curated collection of awesome things related to Nintendo Switch hacking and ho
 *Note:* All retail products will link to the manufacturer's site when possible. The products may not be available for purchase at that site.
 Please perform due diligence when purchasing console modding products online.
 
-**Last Updated**: December 22, 2020
+**Last Updated**: January 9, 2021
 
 ## Contents
 
