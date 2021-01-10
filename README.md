@@ -44,7 +44,7 @@ Payload injectors allow you to run custom software on unpatched Switches when th
 
 - [NS-Atmosphere](http://www.ns-atmosphere.com/en/)
 - [RCMloader](https://www.xkit.xyz/rcmloader/), [RCMloader zero](https://www.xkit.xyz/rcmloader-zero/)
-- [SX Pro](https://sx.xecuter.rocks/#prod-sxpro) - Comes with SX OS license
+- [SX Pro](https://sx.xecuter.com/#prod-sxpro) - Comes with SX OS license
 
 ### Modchips
 
