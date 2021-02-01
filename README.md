@@ -5,14 +5,14 @@ A curated collection of awesome things related to Nintendo Switch hacking and ho
 *Note:* All retail products will link to the manufacturer's site when possible. The products may not be available for purchase at that site.
 Please perform due diligence when purchasing console modding products online.
 
-**Last Updated**: January 9, 2021
+**Last Updated**: February 1, 2021
 
 ## Contents
 
 - [Documentation](#documentation)
   - [Guides](#guides)
 - [Hardware](#hardware)
-  - [Payload Injectors](#external-hardware)
+  - [Payload Injectors](#payload-injectors)
   - [Modchips](#modchips)
 - [System Software](#system-software)
   - [Bootloaders](#bootloaders)
@@ -20,11 +20,10 @@ Please perform due diligence when purchasing console modding products online.
   - [Custom Firmware](#custom-firmware)
   - [Operating Systems](#operating-systems)
 - [Homebrew](#homebrew)
+  - [Utilities](#utilities)
   - [System Modules](#system-modules)
   - [Tesla Overlays](#tesla-overlays)
-  - [Utilities](#utilities)
   - [Games](#games)
-  - [Games (8.1.0)](#games-8.1.0)
   - [Emulation](#emulation)
   - [Media and Streaming](#media-and-streaming)
 
@@ -70,17 +69,17 @@ Bootloaders allow pushing payloads to unpatched Switches when in RCM mode.
 
 Payloads are files that boot the Switch into custom firmware and utilities.
 
-- [fusee-primary](https://github.com/Atmosphere-NX/Atmosphere/releases) - Payload for running Atmosphere
+- [fusee-primary](https://github.com/Atmosphere-NX/Atmosphere/releases) - Payload for running Atmosphère
 - [Incognito_RCM](https://github.com/jimzrt/Incognito_RCM) - Utility to remove console serial number from sysnand or emunand
 - [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) - Utility for dumping console encryption keys
 - [SX Loader](https://sx.xecuter.rocks/) - Payload for running SX OS custom firmware
 
 ### Custom Firmware
 
-Custom firmware modifies and enhances the stock Switch software to allow running homebrew, applying custom themes, etc.
+Custom firmware modifies and enhances the stock Switch software to allow running homebrew, applying custom themes, etc., with Atmosphère being the most popular and widely supported.
 
-- [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) - Open source custom firmware for Nintendo Switch
-- [DeepSea](https://github.com/Team-Neptune/DeepSea) - Custom firmware package containing Atmosphere and common homebrew modules and utilities
+- [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) - Open source custom firmware for Nintendo Switch
+- [DeepSea](https://github.com/Team-Neptune/DeepSea) - Custom firmware package containing Atmosphère and common homebrew modules and utilities
 - [SX OS](https://sx.xecuter.rocks/) - Commercial custom firmware for Nintendo Switch
 
 ### Operating Systems
@@ -93,11 +92,11 @@ These packages allow usage of alternate operating systems on the Switch.
 
 ## Homebrew
 
-Note that a lot of the apps listed below can be installed via the Homebrew App Store.
+All homebrew listed below is compatible with Atmosphère. Note that a lot of the apps listed below can be installed via the Homebrew App Store.
 
 ### Utilities
 
-- [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu) - Nintendo Switch Homebrew Menu, comes bundled with Atmosphere
+- [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu) - Nintendo Switch Homebrew Menu, comes bundled with Atmosphère
 - [Homebrew App Store](https://github.com/vgmoose/hb-appstore) - GUI for downloading/managing homebrew apps
 - [Awoo Installer](https://github.com/Huntereb/Awoo-Installer) - Title installer for Nintendo Switch
 - [Checkpoint](https://github.com/FlagBrew/Checkpoint) - Fast and simple homebrew save manager
@@ -112,7 +111,7 @@ Note that a lot of the apps listed below can be installed via the Homebrew App S
 
 ### System Modules
 
-System modules are software packages that enhance the Switch operating system.
+System modules are software that enhance the Switch operating system when using custom firmware.
 
 - [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader) - Host process for loading Tesla overlays
 - [sys-clk](https://github.com/retronx-team/sys-clk) - CPU and GPU overclocking system module
@@ -123,13 +122,15 @@ System modules are software packages that enhance the Switch operating system.
 
 ### Tesla Overlays
 
-Tesla is a Nintendo Switch homebrew which allows custom menus to be displayed over a game, similar to the Quick Settings menu when holding Home.
+Tesla is a homebrew which allows custom menus to be displayed over a game, similar to the Quick Settings menu when holding Home.
 
 - [Tesla Menu](https://github.com/WerWolv/Tesla-Menu) - Base overlay required to load child overlays
 - [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay) - Monitor many stats of Nintendo Switch hardware
 - [sys-clk-Overlay](https://github.com/Sun-Research-University/sys-clk-Overlay) - Overlay for managing sys-clk system module settings
 
 ### Games
+
+Most homebrew games are ports of open source games or game engines. Game engines will typically require files from the original game, or game packs, for full functionality.
 
 - [DevilutionX](https://github.com/lantus/devilution-nx) - Diablo port for Switch
 - [Doom64EX](https://github.com/fgsfdsfgs/Doom64EX) - Doom64EX port for Switch
@@ -138,8 +139,6 @@ Tesla is a Nintendo Switch homebrew which allows custom menus to be displayed ov
 - [OpenBOR](https://github.com/Cpasjuste/openbor) - OpenBOR engine port for Switch
 - [Postal-NX](https://github.com/Sch-LikA/postal-nx) - Postal port for Switch
 - [Taisei Project](https://taisei-project.org/) - Awesome bullet hell shoot'em up
-
-### Games (8.1.0)
 
 These games only work on firmware up to version 8.1.0 due to a change in the way inputs are handled in firmware 9.0.0 and up.
 
