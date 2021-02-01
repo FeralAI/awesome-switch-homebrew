@@ -62,13 +62,14 @@ Bootloaders allow pushing payloads to unpatched Switches when in RCM mode.
 
 - [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI) - Windows utility to inject payloads in RCM mode
 - [NS-USBloader](https://github.com/developersu/ns-usbloader) - Title installer with payload injection functionality
-- [Hekate](https://github.com/CTCaer/hekate) - Custom Nintendo Switch bootloader, firmware patcher, and more
 - [Fusee_Suite](https://gbatemp.net/threads/trinket-rebug-others-modchip-software-new-fusee_suite-uf2-packages.553998/) - Firmware for SAMD21-based modchips
 
 ### Payloads
 
-Payloads are files that boot the Switch into custom firmware and utilities.
+Payloads are injected during and override the Switch boot sequence, allowing for custom firmware and other utilities to run.
 
+- [Hekate](https://github.com/CTCaer/hekate) - A GUI based Nintendo Switch Bootloader
+- [ArgonNX-SE](https://github.com/Storm21CH/argon-nx) - GUI payload chainloader for Nintendo Swtich
 - [fusee-primary](https://github.com/Atmosphere-NX/Atmosphere/releases) - Payload for running Atmosphère
 - [Incognito_RCM](https://github.com/jimzrt/Incognito_RCM) - Utility to remove console serial number from sysnand or emunand
 - [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) - Utility for dumping console encryption keys
@@ -137,13 +138,17 @@ Most homebrew games are ports of open source games or game engines. Game engines
 - [EDuke32](https://github.com/fgsfdsfgs/eduke32) - EDuke32 port for Switch
 - [GZDoom](https://github.com/fgsfdsfgs/gzdoom/tree/switch) - 3D-accelerated Doom source port
 - [OpenBOR](https://github.com/Cpasjuste/openbor) - OpenBOR engine port for Switch
+- [OpenLara](https://github.com/XProger/OpenLara/releases/tag/latest) - Classic Tomb Raider open-source engine (check last update date in release notes)
 - [Postal-NX](https://github.com/Sch-LikA/postal-nx) - Postal port for Switch
+- [re3-nx](https://github.com/AGraber/re3-nx) - GTA 3 decompilation ported to the Nintendo Switch
+- [Sonic 1 & 2 (2013)](https://github.com/heyjoeway/Sonic-1-2-2013-Decompilation) - Port of Sonic 1 & 2 (2013)
+- [Sonic CD (2011)](https://github.com/heyjoeway/Sonic-CD-11-Decompilation) - Port of Sonic CD (2011)
+- [Sonic 3 A.I.R.](https://s3airswitch.jojudge.com/) - Port of Sonic 3 & Knuckles remaster
 - [Taisei Project](https://taisei-project.org/) - Awesome bullet hell shoot'em up
 
 These games only work on firmware up to version 8.1.0 due to a change in the way inputs are handled in firmware 9.0.0 and up.
 
 - [NXQuake2](https://github.com/fgsfdsfgs/nxquake2) - Nintendo Switch port of the Yamagi Quake II client
-- [OpenLara](https://github.com/XProger/OpenLara) - Classic Tomb Raider open-source engine
 - [QuakespasmNX](https://github.com/fgsfdsfgs/QuakespasmNX) - Nintendo Switch port of Quakespasm
 - [Wolf4SDL-Switch](https://github.com/keeganatorr/Wolf4SDL-Switch) - Enhanced port of Wolfenstein 3D
 
