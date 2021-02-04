@@ -2,15 +2,16 @@
 
 A curated collection of awesome things related to Nintendo Switch hacking and homebrew.
 
-*Note:* All retail products will link to the manufacturer's site when possible. The products may not be available for purchase at that site.
+> **Note:** All retail products will link to the manufacturer's site when possible. The products may not be available for purchase at that site.
 Please perform due diligence when purchasing console modding products online.
 
-**Last Updated**: February 1, 2021
+**Last Updated**: February 3, 2021
 
 ## Contents
 
 - [Documentation](#documentation)
   - [Guides](#guides)
+  - [Forums](#forums)
 - [Hardware](#hardware)
   - [Payload Injectors](#payload-injectors)
   - [Modchips](#modchips)
@@ -18,6 +19,7 @@ Please perform due diligence when purchasing console modding products online.
   - [Bootloaders](#bootloaders)
   - [Payloads](#payloads)
   - [Custom Firmware](#custom-firmware)
+  - [Signature Patches](#signature-patches)
   - [Operating Systems](#operating-systems)
 - [Homebrew](#homebrew)
   - [Utilities](#utilities)
@@ -34,6 +36,14 @@ Please perform due diligence when purchasing console modding products online.
 - [Nintendo Homebrew Switch Guide](https://nh-server.github.io/switch-guide/) - Excellent getting started guide to Nintendo Switch hacking, maintained by Nintendo Homebrew Discord Server
 - [Sending a Payload](https://nh-server.github.io/switch-guide/user_guide/sysnand/sending_payload/) - Overview of various methods of sending payloads to the Switch
 - [SAMD21 Modchip Install Guide](https://gbatemp.net/threads/internal-modchip-samd21-trinket-m0-gemma-m0-itsybitsy-m0-express-guide-files-support.508068/) - Install guide for Trinket M0, Rebug SwitchME M0, etc.
+
+### Forums
+
+GBAtemp will contain the most information regarding the current state of Nintendo Switch homebrew and hacking, and will usually be the place to find help setting up or troubleshooting homebrew. The subreddits are a nice place for people who just want to keep up with the latest homebrew releases and information in an easily digestible format.
+
+- [GBAtemp - Nintendo Switch Discussions](https://gbatemp.net/categories/nintendo-switch-discussions.282/)
+- [r/SwitchHacks](https://www.reddit.com/r/SwitchHacks/)
+- [r/SwitchHaxing](https://www.reddit.com/r/SwitchHaxing/)
 
 ## Hardware
 
@@ -83,6 +93,15 @@ Custom firmware modifies and enhances the stock Switch software to allow running
 - [DeepSea](https://github.com/Team-Neptune/DeepSea) - Custom firmware package containing Atmosphère and common homebrew modules and utilities
 - [SX OS](https://sx.xecuter.rocks/) - Commercial custom firmware for Nintendo Switch
 
+### Signature Patches
+
+> **Note:** It is not recommended to run homebrew from unsigned NSPs, as this can easily lead to a ban from Nintendo. The recommended method of running homebrew in Atmosphere is via title replacement - hold R while launching a legit application, which will launch HBMenu.
+
+Signature patches, a.k.a. sigpatches, allow unsigned code to run on a Switch running custom firmware. While this can allow running pirated software, sigpatches also have a legitimate use for running homebrew NSP packages and using NSP forwarders for convenience. They can be updated using the homebrew apps [AIO Switch Updater](https://github.com/HamletDuFromage/aio-switch-updater) or [Awoo Installer](https://github.com/Huntereb/Awoo-Installer), or manually from the following locations:
+
+- [Sigpatches for Atmosphere (fusee-primary only)](https://github.com/eXhumer/patches/releases)
+- [Sigpatches for Atmosphere (Hekate/fss0/fusee-secondary only!)](https://gbatemp.net/threads/sigpatches-for-atmosphere-hekate-fss0-fusee-secondary-only.571543/)
+
 ### Operating Systems
 
 These packages allow usage of alternate operating systems on the Switch.
@@ -99,6 +118,7 @@ All homebrew listed below is compatible with Atmosphère. Note that a lot of the
 
 - [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu) - Nintendo Switch Homebrew Menu, comes bundled with Atmosphère
 - [Homebrew App Store](https://github.com/vgmoose/hb-appstore) - GUI for downloading/managing homebrew apps
+- [AIO Switch Updater](https://github.com/HamletDuFromage/aio-switch-updater) - A Nintendo Switch homebrew app to download and update custom firmware, sigpatches, official firmware and cheat codes
 - [Awoo Installer](https://github.com/Huntereb/Awoo-Installer) - Title installer for Nintendo Switch
 - [Checkpoint](https://github.com/FlagBrew/Checkpoint) - Fast and simple homebrew save manager
 - [ChoiDujourNX](https://switchtools.sshnuke.net/) - Firmware update utility
