@@ -95,13 +95,13 @@ Custom firmware modifies and enhances the stock Switch software to allow running
 
 ### Signature Patches
 
-> **Note:** It is not recommended to run homebrew from unsigned NSPs, as this can easily lead to a ban from Nintendo. The recommended method of running homebrew in Atmosphere is via title replacement - hold R while launching a legit application, which will launch HBMenu.
+> **Note:** It is not recommended to run homebrew from unsigned NSPs, as this can easily lead to a ban from Nintendo. The recommended method of running homebrew in Atmosphère is via title replacement - hold R while launching a legit application, which will launch HBMenu.
 
 Signature patches, a.k.a. sigpatches, allow unsigned code to run on a Switch running custom firmware. While this can allow running pirated software, sigpatches also have a legitimate use for running homebrew NSP packages and using NSP forwarders for convenience. They can be updated using the homebrew apps [AIO Switch Updater](https://github.com/HamletDuFromage/aio-switch-updater) or [Awoo Installer](https://github.com/Huntereb/Awoo-Installer), or manually from the following locations:
 
-- [Sigpatches for Atmosphere](https://github.com/ITotalJustice/patches/releases)
-- [Sigpatches for Atmosphere (fusee-primary only)](https://github.com/eXhumer/patches/releases)
-- [Sigpatches for Atmosphere (Hekate/fss0/fusee-secondary only!)](https://gbatemp.net/threads/sigpatches-for-atmosphere-hekate-fss0-fusee-secondary-only.571543/)
+- [Sigpatches for Atmosphère](https://github.com/ITotalJustice/patches/releases)
+- [Sigpatches for Atmosphère (fusee-primary only)](https://github.com/eXhumer/patches/releases)
+- [Sigpatches for Atmosphère (Hekate/fss0/fusee-secondary only!)](https://gbatemp.net/threads/sigpatches-for-atmosphere-hekate-fss0-fusee-secondary-only.571543/)
 
 ### Operating Systems
 
