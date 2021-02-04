@@ -5,7 +5,7 @@ A curated collection of awesome things related to Nintendo Switch hacking and ho
 > **Note:** All retail products will link to the manufacturer's site when possible. The products may not be available for purchase at that site.
 Please perform due diligence when purchasing console modding products online.
 
-**Last Updated**: February 3, 2021
+**Last Updated**: February 4, 2021
 
 ## Contents
 
@@ -81,7 +81,7 @@ Payloads are injected during and override the Switch boot sequence, allowing for
 - [Hekate](https://github.com/CTCaer/hekate) - A GUI based Nintendo Switch Bootloader
 - [ArgonNX-SE](https://github.com/Storm21CH/argon-nx) - GUI payload chainloader for Nintendo Swtich
 - [fusee-primary](https://github.com/Atmosphere-NX/Atmosphere/releases) - Payload for running Atmosphère
-- [Incognito_RCM](https://github.com/jimzrt/Incognito_RCM) - Utility to remove console serial number from sysnand or emunand
+- [Incognito_RCM](https://github.com/Scandal-UK/Incognito_RCM) - Utility to remove console serial number from sysnand or emunand
 - [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) - Utility for dumping console encryption keys
 - [SX Loader](https://sx.xecuter.rocks/) - Payload for running SX OS custom firmware
 
