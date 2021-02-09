@@ -5,7 +5,7 @@ A curated collection of awesome things related to Nintendo Switch hacking and ho
 > **Note:** All retail products will link to the manufacturer's site when possible. The products may not be available for purchase at that site.
 Please perform due diligence when purchasing console modding products online.
 
-**Last Updated**: February 4, 2021
+**Last Updated**: February 9, 2021
 
 ## Contents
 
@@ -109,7 +109,7 @@ These packages allow usage of alternate operating systems on the Switch.
 
 - [L4T Ubuntu](https://gbatemp.net/threads/l4t-ubuntu-a-fully-featured-linux-on-your-switch.537301/) - Ubuntu Linux based on NVIDIA's Linux for Tegra project
 - [Lakka](https://lakka-switch.github.io/documentation/) - L4T Ubuntu build focused on emulation using RetroArch as the frontend
-- [LineageOS](https://forum.xda-developers.com/nintendo-switch/nintendo-switch-news-guides-discussion--development/rom-switchroot-lineageos-15-1-t3951389) - LineageOS (Android) for Nintendo Switch
+- [LineageOS](https://forum.xda-developers.com/t/rom-unofficial-switchroot-android-10.4229761/) - LineageOS (Android) for Nintendo Switch
 
 ## Homebrew
 
