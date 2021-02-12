@@ -122,7 +122,7 @@ All homebrew listed below is compatible with Atmosphère. Note that a lot of the
 - [AIO Switch Updater](https://github.com/HamletDuFromage/aio-switch-updater) - A Nintendo Switch homebrew app to download and update custom firmware, sigpatches, official firmware and cheat codes
 - [Awoo Installer](https://github.com/Huntereb/Awoo-Installer) - Title installer for Nintendo Switch
 - [Checkpoint](https://github.com/FlagBrew/Checkpoint) - Fast and simple homebrew save manager
-- [ChoiDujourNX](https://switchtools.sshnuke.net/) - Firmware update utility
+- [Daybreak](https://github.com/Atmosphere-NX/Atmosphere) - Firmware update utility bundled with Atmosphère, recommended over the older [ChoiDujourNX](https://switchtools.sshnuke.net/)
 - [EdiZon](https://github.com/WerWolv/EdiZon) - A homebrew save management, editing tool and memory trainer
 - [Goldleaf](https://github.com/XorTroll/Goldleaf) - Multipurpose homebrew tool (file browser, title installer)
 - [nxdumptool](https://github.com/DarkMatterCore/nxdumptool) - Cartridge and eShop title dumping utility
