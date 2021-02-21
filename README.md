@@ -161,7 +161,7 @@ Most homebrew games are ports of open source games or game engines. Game engines
 - [OpenBOR](https://github.com/Cpasjuste/openbor) - OpenBOR engine port for Switch
 - [OpenLara](https://github.com/XProger/OpenLara/releases/tag/latest) - Classic Tomb Raider open-source engine (check last update date in release notes)
 - [Postal-NX](https://github.com/Sch-LikA/postal-nx) - Postal port for Switch
-- [re3-nx](https://github.com/AGraber/re3-nx) - GTA 3 decompilation ported to the Nintendo Switch
+- [Return to Castle Wolfenstein](https://gbatemp.net/threads/return-from-castle-wolfenstein.577517/) - Return to Castle Wolfenstein port
 - [Sonic 1 & 2 (2013)](https://github.com/heyjoeway/Sonic-1-2-2013-Decompilation) - Port of Sonic 1 & 2 (2013)
 - [Sonic CD (2011)](https://github.com/heyjoeway/Sonic-CD-11-Decompilation) - Port of Sonic CD (2011)
 - [Sonic 3 A.I.R.](https://s3airswitch.jojudge.com/) - Port of Sonic 3 & Knuckles remaster
