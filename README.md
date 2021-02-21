@@ -33,7 +33,10 @@ Please perform due diligence when purchasing console modding products online.
 
 ### Guides
 
-- [Nintendo Homebrew Switch Guide](https://nh-server.github.io/switch-guide/) - Excellent getting started guide to Nintendo Switch hacking, maintained by Nintendo Homebrew Discord Server
+These guides will help you get started with enabling homebrew on your Nintendo Switch.
+
+- [Hombrew Guide](https://switch.homebrew.guide/) - An excellent, straight-forward guide for getting up and running with Switch homebrew
+- [Nintendo Homebrew Switch Guide](https://nh-server.github.io/switch-guide/) - Another great homebrew setup guide, with a bit more detail around customizing the homebrew environment on your Switch
 - [Sending a Payload](https://nh-server.github.io/switch-guide/user_guide/sysnand/sending_payload/) - Overview of various methods of sending payloads to the Switch
 - [SAMD21 Modchip Install Guide](https://gbatemp.net/threads/internal-modchip-samd21-trinket-m0-gemma-m0-itsybitsy-m0-express-guide-files-support.508068/) - Install guide for Trinket M0, Rebug SwitchME M0, etc.
 
