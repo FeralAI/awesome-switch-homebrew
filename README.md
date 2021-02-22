@@ -2,12 +2,14 @@
 
 A curated collection of awesome things related to Nintendo Switch hacking and homebrew.
 
+If you would like to see something awesome added to this list, please [open an issue](https://github.com/jskuby/awesome-switch-homebrew/issues/new) or [create a pull request](https://github.com/jskuby/awesome-switch-homebrew/compare).
+
 > **Note:** All retail products will link to the manufacturer's site when possible. The products may not be available for purchase at that site.
 Please perform due diligence when purchasing console modding products online.
 
-**Last Updated**: February 21, 2021
-
 ## Contents
+
+**Last Update**: February 22, 2021
 
 - [Documentation](#documentation)
   - [Guides](#guides)
@@ -35,7 +37,7 @@ Please perform due diligence when purchasing console modding products online.
 
 These guides will help you get started with enabling homebrew on your Nintendo Switch.
 
-- [Hombrew Guide](https://switch.homebrew.guide/) - An excellent, straight-forward guide for getting up and running with Switch homebrew
+- [Homebrew Guide](https://switch.homebrew.guide/) - An excellent, straight-forward guide for getting up and running with Switch homebrew
 - [Nintendo Homebrew Switch Guide](https://nh-server.github.io/switch-guide/) - Another great homebrew setup guide, with a bit more detail around customizing the homebrew environment on your Switch
 - [Sending a Payload](https://nh-server.github.io/switch-guide/user_guide/sysnand/sending_payload/) - Overview of various methods of sending payloads to the Switch
 - [SAMD21 Modchip Install Guide](https://gbatemp.net/threads/internal-modchip-samd21-trinket-m0-gemma-m0-itsybitsy-m0-express-guide-files-support.508068/) - Install guide for Trinket M0, Rebug SwitchME M0, etc.
