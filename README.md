@@ -9,7 +9,7 @@ Please perform due diligence when purchasing console modding products online.
 
 ## Contents
 
-**Last Update**: February 22, 2021
+**Last Update**: April 20, 2021
 
 - [Documentation](#documentation)
   - [Guides](#guides)
