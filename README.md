@@ -161,20 +161,16 @@ Most homebrew games are ports of open source games or game engines. Game engines
 - [Doom64EX](https://github.com/fgsfdsfgs/Doom64EX) - Doom64EX port for Switch
 - [EDuke32](https://github.com/fgsfdsfgs/eduke32) - EDuke32 port for Switch
 - [GZDoom](https://github.com/fgsfdsfgs/gzdoom/tree/switch) - 3D-accelerated Doom source port
+- [NXQuake2](https://github.com/fgsfdsfgs/nxquake2) - Nintendo Switch port of the Yamagi Quake II client
 - [OpenBOR](https://github.com/Cpasjuste/openbor) - OpenBOR engine port for Switch
 - [OpenLara](https://github.com/XProger/OpenLara/releases/tag/latest) - Classic Tomb Raider open-source engine (check last update date in release notes)
-- [Postal-NX](https://github.com/Sch-LikA/postal-nx) - Postal port for Switch
+- [Postal-NX](https://github.com/Sch-LikA/postal-nx) - Postal port for Switch'
+- [QuakespasmNX](https://github.com/fgsfdsfgs/QuakespasmNX) - Nintendo Switch port of Quake (use [this build](https://gbatemp.net/threads/nxquake2-a-quake-ii-port.517139/page-9#post-8992006) until main repo is updated)
 - [Return to Castle Wolfenstein](https://gbatemp.net/threads/return-from-castle-wolfenstein.577517/) - Return to Castle Wolfenstein port
 - [Sonic 1 & 2 (2013)](https://github.com/heyjoeway/Sonic-1-2-2013-Decompilation) - Port of Sonic 1 & 2 (2013)
 - [Sonic CD (2011)](https://github.com/heyjoeway/Sonic-CD-11-Decompilation) - Port of Sonic CD (2011)
 - [Sonic 3 A.I.R.](https://s3airswitch.jojudge.com/) - Port of Sonic 3 & Knuckles remaster
 - [Taisei Project](https://taisei-project.org/) - Awesome bullet hell shoot'em up
-
-These games only work on firmware up to version 8.1.0 due to a change in the way inputs are handled in firmware 9.0.0 and up.
-
-- [NXQuake2](https://github.com/fgsfdsfgs/nxquake2) - Nintendo Switch port of the Yamagi Quake II client
-- [QuakespasmNX](https://github.com/fgsfdsfgs/QuakespasmNX) - Nintendo Switch port of Quakespasm
-- [Wolf4SDL-Switch](https://github.com/keeganatorr/Wolf4SDL-Switch) - Enhanced port of Wolfenstein 3D
 
 ### Emulation
 
