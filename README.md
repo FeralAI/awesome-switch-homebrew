@@ -9,7 +9,7 @@ Please perform due diligence when purchasing console modding products online.
 
 ## Contents
 
-**Last Update**: April 20, 2021
+**Last Update**: April 26, 2021
 
 - [Documentation](#documentation)
   - [Guides](#guides)
@@ -146,6 +146,7 @@ System modules are software that enhance the Switch operating system when using 
 - [sys-ftpd-light](https://github.com/cathery/sys-ftpd-light) - FTP server system module
 - [sys-tune](https://github.com/HookedBehemoth/sys-tune) - Background audio player for the Nintendo switch
 - [MissionControl](https://github.com/ndeadly/MissionControl) - Use controllers from other consoles natively on your Nintendo Switch via Bluetooth
+- [nx-btred](https://github.com/plutooo/nx-btred) - nx-btred is a Bluetooth audio driver/redirector for Switch
 
 ### Tesla Overlays
 
