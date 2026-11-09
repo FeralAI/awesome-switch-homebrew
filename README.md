@@ -146,6 +146,7 @@ System modules are software that enhance the Switch operating system when using 
 - [sys-ftpd-light](https://github.com/cathery/sys-ftpd-light) - FTP server system module
 - [sys-tune](https://github.com/HookedBehemoth/sys-tune) - Background audio player for the Nintendo switch
 - [MissionControl](https://github.com/ndeadly/MissionControl) - Use controllers from other consoles natively on your Nintendo Switch via Bluetooth
+- [LANywhere Self-host](https://github.com/SEc-123/lanywhere-selfhost) - Local Wireless multiplayer relay with a Switch lobby and optional Tesla-compatible overlay.
 - [nx-btred](https://github.com/plutooo/nx-btred) - nx-btred is a Bluetooth audio driver/redirector for Switch
 
 ### Tesla Overlays
